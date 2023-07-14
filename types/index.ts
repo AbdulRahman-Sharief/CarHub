@@ -52,3 +52,8 @@ export interface ShowMoreProps {
   isNext: boolean;
   setLimit: (limit: any) => void;
 }
+
+export interface SearchBarProps {
+  setManufacturer: (manufacturer: string) => void;
+  setModel: (model: string) => void;
+}
